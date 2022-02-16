@@ -26,6 +26,5 @@ public class BuilderMain {
 										.withBalance(190.45).build();
 		
 		System.out.println(account);
-		
 	}
 }
