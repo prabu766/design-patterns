@@ -7,5 +7,8 @@ package com.pattern.singleton;
  * 
  */
 public class SingletonPattern {
-
+	
+	public static void main(String[] args) {
+		SingletonClass singleIns = SingletonClass.getInstance();
+	}
 }
