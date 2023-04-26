@@ -25,6 +25,7 @@ public class WebHookFactory {
 	}
 	
 	public static void main(String[] args) {
-		getWebHookService("CREATED");
+		WebHookService whService = getWebHookService("CREATED");
+		whService.processEvent();
 	}
 }
